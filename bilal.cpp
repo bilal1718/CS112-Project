@@ -43,6 +43,8 @@ public:
                 arr[i]=arr[min];
                 arr[min]=temp;
             }
+            cout << "Press Enter to see the next iteration...";
+            cin.get();
             cout << "Array after iteration " << i+1 << ": ";
             for(int k=0; k<n; k++){
                 cout << arr[k] << " ";
@@ -71,6 +73,8 @@ int main(){
     Selection_Sort s1(n);
     s1.enterArray();
     s1.initialArray();
+    cout << "Press Enter to start sorting..." << endl;
+    cin.get();
     s1.sortArray();
     s1.displaySortedArray();
     return 0;
