@@ -16,9 +16,6 @@ class Selection_Sort{
          for( int i=0; i<n; i++){
         cout << "Enter the element " << i+1 << " in an array: ";
         cin >> arr[i];
-        if(arr[i] < 0){
-            cout << "Enter the positive number " << endl;
-        }
     }
     }
     void initialArray(){
